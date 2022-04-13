@@ -13,8 +13,8 @@ export default function AddContact({ addContactsHandler }) {
     }
     addContactsHandler([name, email]);
 
-    // setName("");
-    // setEmail("");
+    setName("");
+    setEmail("");
     console.log("button pressed");
   }
 
